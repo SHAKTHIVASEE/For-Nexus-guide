@@ -5,14 +5,14 @@ The Nexus zkVM is a modular, extensible, open-source, and highly-parallelized zk
 ## 1. Fork the Official Repo - https://github.com/nexus-xyz/nexus-zkvm 
 ## 2. Login with Gitpod.io
 
-## Depolyment
+## 3. Press CNTRL+C
 
-## i.   Install CMAKE
+## 4. Install Cmake
 
 ```
 sudo apt install cmake
 ```
-## Install Build Essential 
+## 5. Install Build Essential 
 ```
 sudo apt update
 sudo apt install build-essential
