@@ -95,33 +95,24 @@ fn main() {
 cargo nexus run
 ```
 
-This command should run successfully. To print the full step-by-step execution trace on the NVM, run:
+### 13. step-by-step execution trace on the NVM, run:
 
 ```bash
 cargo nexus run -v
 ```
 
-### 4. Prove your program
-
-Generate a proof for your Rust program using the Nexus zkVM.
+### 14. Prove your program - Generate a proof for your Rust program using the Nexus zkVM.
 
 ```shell
 cargo nexus prove
 ```
 
-This command will save the proof to `./nexus-proof`.
-
-### 5. Verify your proof
-
-Finally, load and verify the proof:
+### 15. Verify your proof - Finally, load and verify the proof:
 
 ```shell
 cargo nexus verify
 ```
 
 
-
-SAVE ```NEXUS-PROOF``` SOMEWHERE IN DIRECTORY
-
-![image](https://github.com/mztacat/nexus-zkvm/assets/31314340/c66f422d-ce36-4580-98a0-9e2540e4de41)
+#### Most importanly  commit and push the repo in github 
 
