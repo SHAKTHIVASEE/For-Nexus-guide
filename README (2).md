@@ -2,13 +2,9 @@
 
 The Nexus zkVM is a modular, extensible, open-source, and highly-parallelized zkVM, designed to run at *a trillion CPU cycles proved per second* given enough machine power.
 
-## Folding schemes
-
-If you're interested in our implementation of folding schemes, check the [`nexus-nova`](./nova/) crate.
-
 ## Quick Start
 
-## i.   Install CMAKE [Modified version] 
+## i.   Install CMAKE
 
 ```
 sudo apt install cmake
