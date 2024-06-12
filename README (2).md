@@ -19,25 +19,25 @@ sudo apt install build-essential
 ```
 
 
-### 1. Install Rust
+### 6. Install Rust
 
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ```
-### Input 1 and proceed 
+### 7. Input 1 and proceed 
 
 ```
 . "$HOME/.cargo/env"
 ```
 
-With the RISC-V target:
+### 8. With the RISC-V target:
 
 ```shell
 rustup target add riscv32i-unknown-none-elf
 ```
 
-Then, install the Nexus zkVM:
+### Then nstall the Nexus zkVM:
 
 ```shell
 cargo install --git https://github.com/nexus-xyz/nexus-zkvm nexus-tools --tag 'v1.0.0'
