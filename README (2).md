@@ -2,7 +2,10 @@
 
 The Nexus zkVM is a modular, extensible, open-source, and highly-parallelized zkVM, designed to run at *a trillion CPU cycles proved per second* given enough machine power.
 
-## Quick Start
+## 1. Fork the Official Repo - https://github.com/nexus-xyz/nexus-zkvm 
+## 2. Login with Gitpod.io
+
+## Depolyment
 
 ## i.   Install CMAKE
 
