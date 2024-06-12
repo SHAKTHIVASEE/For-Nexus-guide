@@ -37,21 +37,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 rustup target add riscv32i-unknown-none-elf
 ```
 
-### Then nstall the Nexus zkVM:
+### 9. Then install the Nexus zkVM:
 
 ```shell
 cargo install --git https://github.com/nexus-xyz/nexus-zkvm nexus-tools --tag 'v1.0.0'
 ```
 
-Verify the installation:
-
-```shell
-cargo nexus --help
-```
-
-This should print the available CLI commands.
-
-### 2. Create a new Nexus project
+### 10. Create a new Nexus project
 
 ```shell
 cargo nexus new nexus-project
@@ -67,7 +59,7 @@ This will create a new Rust project directory with the following structure:
     └── main.rs
 ```
 
-### Move to Directory 
+### 11. Move to Directory, Replace the code and press CNTL+X, Y, Enter
 
 ```
 cd nexus-project
@@ -97,7 +89,7 @@ fn main() {
 ```
 
 
-### 3. Run your program
+### 12. Run your program
 
 ```bash
 cargo nexus run
