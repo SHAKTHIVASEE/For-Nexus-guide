@@ -2,7 +2,7 @@
 
 The Nexus zkVM is a modular, extensible, open-source, and highly-parallelized zkVM, designed to run at *a trillion CPU cycles proved per second* given enough machine power.
 
-## 1. Create your own Repo 
+## 1. Fork this Repo 
 ## 2. Login with Gitpod.io
 
 ## 3. Press CNTRL+C
