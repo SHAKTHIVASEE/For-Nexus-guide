@@ -2,7 +2,7 @@
 
 The Nexus zkVM is a modular, extensible, open-source, and highly-parallelized zkVM, designed to run at *a trillion CPU cycles proved per second* given enough machine power.
 
-## 1. Fork the Official Repo - https://github.com/nexus-xyz/nexus-zkvm 
+## 1. Create your own Repo 
 ## 2. Login with Gitpod.io
 
 ## 3. Press CNTRL+C
@@ -40,7 +40,7 @@ rustup target add riscv32i-unknown-none-elf
 ### 9. Then install the Nexus zkVM:
 
 ```shell
-cargo install --git https://github.com/nexus-xyz/nexus-zkvm nexus-tools --tag 'v1.0.0'
+cargo install --git https://github.com/nexus-xyz/nexus-zkvm cargo-nexus --tag 'v0.2.0'
 ```
 
 ### 10. Create a new Nexus project
